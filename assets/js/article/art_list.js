@@ -69,7 +69,7 @@ $(function(){
         e.preventDefault()
         
         let cate_id = $('[name=cate_id]').val()
-        let state = $('name=[state]').val()
+        let state = $('[name=state]').val()
         q.cate_id = cate_id
         q.state = state
         initTable() 
